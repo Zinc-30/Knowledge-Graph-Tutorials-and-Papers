@@ -9,19 +9,6 @@ __Data Integration and Knowledge Integration__
 __KG and Blockchains__
 1. BlockChain + KG [[Link](https://mp.weixin.qq.com/s/8arlkjwqUGNfxQKkwbf28g)]
 
-__KG Queries and Knowledge Search__
-1. Semantic Guided and Response Times Bounded Top-k Similarity Search over Knowledge Graphs [[Video](https://www.google.com/url?q=https://drive.google.com/open?id%3D1ejMq8cZrTZT1Nn0D-zaMlW7X7ESkSDro&sa=D&ust=1587488616453000&usg=AFQjCNEeyFqVvX9q4QWy8jc4jHfpdEc2Zw)][[Slides](https://www.google.com/url?q=https://drive.google.com/open?id%3D1JyhtaWEeRvzS6TmIuplZNd5ZId3Larpz&sa=D&ust=1587488616453000&usg=AFQjCNEI5es_-rKQs-eUImsqivdAFNAnvw)][[Paper](https://conferences.computer.org/icde/2020/pdfs/ICDE2020-5acyuqhpJ6L9P042wmjY1p/290300a445/290300a445.pdf)] (ICDE 2020) 🌟
-2. Online Indices for Predictive Top-k Entity and Aggregate Queries on Knowledge Graphs [[Video](https://www.google.com/url?q=https://drive.google.com/open?id%3D12mo2_5abIbU9BDxrI4eSPsZ-SFDRgMAN&sa=D&ust=1587488616485000&usg=AFQjCNHwZw7kP6JJ2nIbDiMT4FvlwebmsA)][[Slides](https://www.google.com/url?q=https://drive.google.com/open?id%3D1Vy15Q81aZg6Kn0AKqcJQ1LraCAb7ZyPy&sa=D&ust=1587488616485000&usg=AFQjCNEqOaDue8W4ZN91-2I2JPLkQTE3jw)][[Paper](https://conferences.computer.org/icde/2020/pdfs/ICDE2020-5acyuqhpJ6L9P042wmjY1p/290300b057/290300b057.pdf)] (ICDE 2020) 🌟
-3. SPARQL Rewriting: Towards Desired Results [[Paper](https://doi.org/10.1145/3318464.3389695)] (SIGMOD 2020) 🌟
-4. Collective Keyword Query on a Spatial Knowledge Base (TKDE 2019) 🌟
-5. An analytical study of large SPARQL query logs (VLDBJ 2020) 🌟
-6. Keyword Search over Knowledge Graphs via Static and Dynamic Hub Labelings (WWW 2020)  [[Paper](https://dl.acm.org/doi/pdf/10.1145/3366423.3380110)] 🌟
-7. Graph-Query Suggestions for Knowledge Graph Exploration (WWW 2020, short paper)
-8. Mining summaries for knowledge graph search (ICDM 2016)
-9. Efficient Computation of Semantically Cohesive Subgraphs for Keyword-Based Knowledge Graph Exploration (WWW 2021) 
-10. WiseKG: Balanced Access to Web Knowledge Graphs (WWW 2021)
-11. Self-Supervised Hyperboloid Representations from Logical Queries over Knowledge Graphs (WWW 2021)
-
 __Data Extraction or Knowledge Extraction from The Web__
 1. When Open Information Extraction Meets the Semi-Structured Web (OpenCERES, NAACL 2019)
 2. CERES: Distantly Supervised Relation Extraction from the Semi-Structured Web (CERES, VLDB 2018) 🌟
@@ -39,6 +26,7 @@ __Multi-hop Reading__
 > * BERT + GNN
 2. Is Graph Structure Neccessary for Multi-Hop Reading? (EMNLP 2020) [[Paper](https://www.aclweb.org/anthology/2020.emnlp-main.583.pdf)] [[Notes](https://mp.weixin.qq.com/s/zaNWytZQpy8sb2S7tLTgRA)]
 3. Dynamically fused graph network for multi-hop reading (ACL 2019)
+4. AdaLoGN: Adaptive Logic Graph Network for Reasoning-Based Machine Reading Comprehension (ACL 2022) [[Paper](https://arxiv.org/pdf/2203.08992.pdf)] [[Github](https://github.com/nju-websoft/AdaLoGN]
 
 __Graph Functional Dependencies__
 
@@ -60,6 +48,9 @@ __K-Core in Graphs__
 1. Hierarchical Core Maintenance on Large Dynamic Graphs (VLDB 2021) [[Paper](http://www.vldb.org/pvldb/vol14/p757-zhang.pdf)]
 2. Efficient Progressive Minimum k-Core Search (VLDB 2020) [[Paper](http://www.vldb.org/pvldb/vol13/p362-li.pdf)]
 
+__Transformers!__
+1. The Illustrated Transformer [[GitHub](http://jalammar.github.io/illustrated-transformer/)]
+
 __BERT+KG__
 1. ENRIE (Tsinghua) [[References](https://zhuanlan.zhihu.com/p/150118293)]
 2. ENRIE (Baidu) [[References](https://mp.weixin.qq.com/s?__biz=MzAxMDk0OTI3Ng==&mid=2247484077&idx=1&sn=fa39b7df8380ea3c49fa5cfd58f446ff&chksm=9b49c55eac3e4c489b3230063700e9414e2e3f5a75018ab3059d2c31a64f9e591da0df927bd9&scene=21#wechat_redirect)]
@@ -69,6 +60,9 @@ __XAI and Explanable GNN__
 > * Shapley value --> taxi sharing
 2. ReduNet: A White-box Deep Network from the Principle of Maximizing Rate Reduction [[Paper](https://arxiv.org/pdf/2105.10446.pdf)] [[Some discussion](https://mp.weixin.qq.com/s/sZjn5Q8IBu6JXziTBJVLTg)]
 3. Evaluating XAI: A comparison of rule-based and example-based explanations [[Paper](https://www.sciencedirect.com/science/article/pii/S0004370220301533)]
+
+__HGNN__
+1. Heterogeneous Graph Structure Learning for Graph Neural Networks (AAAI 2021) [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/16600)]
 
 __Others__
 1. Neural Subgraph Isomorphism Counting (KDD 2020) [[Paper](https://arxiv.org/pdf/1912.11589.pdf)] [[Code](https://github.com/HKUST-KnowComp/NeuralSubgraphCounting)] 🌟
@@ -108,3 +102,11 @@ __Others__
 > * k-attributed graph clustering (k-AGC) groups nodes in G into k disjoint clusters, such that nodes within the same cluster share similar topological and attribute characteristics, while those in different clusters are dissimilar.
 37. Trav-SHACL: Efficiently Validating Networks of SHACL Constraints (WWW 2021)
 38. Sampling from Large Graphs (KDD 2006) [[Paper](https://cs.stanford.edu/people/jure/pubs/sampling-kdd06.pdf)]
+39. A Survey on Data Collection for Machine Learning: A Big Data - AI Integration Perspective [[Paper](https://ieeexplore.ieee.org/document/8862913/)] (TKDE 2021) 🌟
+40. Learning Dynamic User Interest Sequence in Knowledge Graphs for Click-Through Rate Prediction [[Paper](https://ieeexplore.ieee.org/document/9409651)] (TKDE 2021) 🌟
+41. Rotom: A Meta-Learned Data Augmentation Framework for Entity Matching, Data Cleaning, Text Classification, and Beyond (SIGMOD 2021) 🌟
+42. Alibaba - GraphScope (VLDB 2021/22 industrial) 🌟 三个独立引擎 GAIA (NSDI 2021), GRAPE (SIGMOD 2017), AliGraph 
+43. vertex central GNN (SIGMOD 2021) James Cheng, CUHK
+44. KungFu: Taking Training in Distributed Machine Learning Adaptive (OSDI)
+45. ArangoML Pipeline [[GitHub](https://github.com/arangoml/arangopipe)]
+

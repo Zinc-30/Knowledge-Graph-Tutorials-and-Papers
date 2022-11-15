@@ -1,12 +1,13 @@
 ## Knowledge Graph Embedding, Learning, Reasoning, Rule Mining, and Path Finding
 
 ### 1. Surveys and Summary
-__Surveys and Experimental Studies__
+__Surveys, Tutorials and Experimental Studies__
 1. Knowledge graph embedding: A survey of approaches and applications (TKDE 2017)🌟
 2. Knowledge representation learning: A quantitative review (2018) [[Code in this paper](https://github.com/thunlp/OpenKE)]
 3. A Comprehensive Survey of Knowledge Graph Embeddings with Literals: Techniques and Applications (ESWC 2019) [[Paper](http://ceur-ws.org/Vol-2377/paper_4.pdf)]
 4. Knowledge Graph Embedding for Link Prediction: A Comparative Analysis [[Paper](https://arxiv.org/pdf/2002.00819.pdf)]
 5. Realistic Re-evaluation of Knowledge Graph Completion Methods: An Experimental Study [[Paper](https://doi.org/10.1145/3318464.3380599)] (SIGMOD 2020) 🌟
+6. Reasoning on Knowledge Graphs: Symbolic or Neural? (AAAI 2022 Tutorial) [[Link](https://aaai2022kgreasoning.github.io/)]
 
 __Summary__
 1. Papers, Surveys, and Datasets on Knowledge Graph Embedding (KGE) [[GitHub](https://github.com/xinguoxia/KGE)]
@@ -32,7 +33,7 @@ __General Papers__
 6. The Role of “Condition”: A Novel Scientific Knowledge Graph Representation and Construction Model [[Paper](https://dl.acm.org/citation.cfm?id=3292500.3330942), [Presentation](https://www.kdd.org/kdd2019/accepted-papers/view/the-role-of-condition-a-novel-scientific-knowledge-graph-representation-and)] (KDD 2019)
 7. Universal Representation Learning of Knowledge Bases by Jointly Embedding Instances and Ontological Concepts [[Paper](http://web.cs.ucla.edu/~yzsun/papers/2019_KDD_JOIE.pdf), [Presentation](https://www.kdd.org/kdd2019/accepted-papers/view/universal-representation-learning-of-knowledge-bases-by-jointly-embedding-i)] (KDD 2019)
 8. NSCaching: Simple and Efficient Negative Sampling for Knowledge Graph Embedding [[PDF](https://arxiv.org/pdf/1812.06410.pdf)] (ICDE 2019) 🌟
-> How to find valuable negative samples efficiently
+> * How to find valuable negative samples efficiently
 9. Entity Integrity, Referential Integrity, and Query Optimization with Embedded Uniqueness Constraints [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8731360), short paper] (ICDE 2019) 🌟
 10. AutoSF: Searching Scoring Functions for Knowledge Graph Embedding [[Video](https://www.google.com/url?q=https://drive.google.com/open?id%3D1wRHmVHiit8xIZalwL2ZUx5IZcu8BVr_4&sa=D&ust=1587488616452000&usg=AFQjCNF27HybM9QnROVO4NeCbqFVvObi0w)][[Slides](https://www.google.com/url?q=https://drive.google.com/open?id%3D1fYdh05WWG0Aco403ArzWafMrf7-joBpu&sa=D&ust=1587488616452000&usg=AFQjCNHnaXb02kbU7LZq5zHG1RhvDon07A)][[Paper](https://conferences.computer.org/icde/2020/pdfs/ICDE2020-5acyuqhpJ6L9P042wmjY1p/290300a433/290300a433.pdf)] (ICDE 2020) 🌟
 11. TransN: Heterogeneous Network Representation Learning by Translating Node Embeddings [[Video](https://www.google.com/url?q=https://drive.google.com/open?id%3D1-KH4NUD2LNN1ESvbXTUfu3HDOYXYylqx&sa=D&ust=1595668107927000&usg=AFQjCNF74glNGWzt3FmGSo5W9th8VGfGwQ)][[Slides](https://www.google.com/url?q=https://drive.google.com/open?id%3D1CAuwlXPIV1rLXZFHvln-VvoSr3IRtM59&sa=D&ust=1595668107927000&usg=AFQjCNELQ0Q52103E2s_vziBq5_jF9TOdQ)][[Paper](https://conferences.computer.org/icde/2020/pdfs/ICDE2020-5acyuqhpJ6L9P042wmjY1p/290300a589/290300a589.pdf)] (ICDE 2020) 🌟
@@ -47,6 +48,10 @@ __General Papers__
 18. Efficient Knowledge Graph Embedding without Negative Sampling (WWW 2021)
 19. MQuadE: a Unified Model for Knowledge Fact Embedding (WWW 2021)
 20. MulDE: Multi-teacher Knowledge Distillation for Low-dimensional Knowledge Graph Embeddings (WWW 2021)
+21. Efficient Relation-Aware Scoring Function Search for Knowledge Graph Embedding (ICDE 2021) 🌟
+22. Simple and automated negative sampling for knowledge graph embedding [[Paper](https://link.springer.com/article/10.1007/s00778-020-00640-7)] (VLDBJ 2021) 🌟
+23. OntoProtein: Protein Pretraining With Gene Ontology Embedding (ICLR 2022) [[Paper](https://arxiv.org/pdf/2201.11147.pdf)] [[Github](https://github.com/zjunlp/OntoProtein)]
+24. 
 
 __Dynamic Embedding__
 1. Dynamic Word Embeddings [[Paper](https://arxiv.org/pdf/1702.08359.pdf)]
@@ -55,6 +60,7 @@ __Dynamic Embedding__
 4. Continuous-Time Dynamic Network Embeddings [WWW 2018] [[Paper](http://ryanrossi.com/pubs/nguyen-et-al-WWW18-BigNet.pdf)]
 5. Efficiently Embedding Dynamic Knowledge Graphs (2019) [[Paper](https://arxiv.org/pdf/1910.06708.pdf)]
 6. Dynamic Heterogeneous Information Network Embedding with Meta-path based Proximity (TKDE 2020) [[https://ieeexplore.ieee.org/document/9091208]] [[Github](https://github.com/rootlu/DyHNE)]
+7. ChronoR: Rotation Based Temporal Knowledge Graph Embedding (arxiv 2021 or AAAI 2021?) [[Paper](https://arxiv.org/abs/2103.10379)]
 
 __CNN Based Embedding__
 1. A novel embedding model for knowledge base completion based on convolutional neural network (NAACL 2018)
@@ -92,10 +98,14 @@ __General Papers__
 10. DIVINE: A Generative Adversarial Imitation Learning Framework for Knowledge Graph Reasoning  (EMNLP 2019)
 11. Collaborative Policy Learning for Open Knowledge Graph Reasoning (EMNLP 2019)
 12. Adapting Meta Knowledge Graph Information for Multi-Hop Reasoning over Few-Shot Relations (EMNLP 2019) [[Paper](https://arxiv.org/abs/1908.11513)]
+13. xERTE: Explainable Subgraph Reasoning for Forecasting on Temporal Knowledge Graphs (ICLR 2021) [[Paper](https://openreview.net/pdf?id=pGIHq1m7PU)] [[Code](https://github.com/TemporalKGTeam/xERTE)] 
+14. SMORE: KNOWLEDGE GRAPH COMPLETION AND MULTI-HOP REASONING IN MASSIVE KNOWLEDGE GRAPHS (Jure's group, Oct 2021) [[Paper](https://arxiv.org/pdf/2110.14890.pdf)]
+15. Knowledge Graph Reasoning with Relational Digraph (arxiv 2022) [[Paper](https://arxiv.org/pdf/2108.06040.pdf)]
 
 ### 4. Rule Mining and Path Finding in KGs
 __General Papers__
 1. RuDiK: Rule Discovery in Knowledge Bases (VLDB 2018) [[PDF](http://www.vldb.org/pvldb/vol11/p1946-ortona.pdf), demo] 🌟
 2. Discovering Diversified Paths in Knowledge Bases (VLDB 2018) [[PDF](http://www.vldb.org/pvldb/vol11/p2002-aebeloe.pdf), demo] 🌟
 3. Robust Discovery of Positive and Negative Rules in Knowledge Bases (ICDE 2018) [[PDF](http://www.eurecom.fr/fr/publication/5321/download/data-publi-5321_2.pdf)] 🌟
+4. An Embedding-Based Approach to Rule Learning in Knowledge Graphs [[Paper](https://ieeexplore.ieee.org/document/8839576/)] (TKDE 2021) 🌟
 

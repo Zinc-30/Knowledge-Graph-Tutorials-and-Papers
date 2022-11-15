@@ -1,4 +1,4 @@
-### Entity Resolution, Entity Matching and Entity Alignment
+## Entity Resolution, Entity Matching and Entity Alignment
 
 __Surveys and Analysis__
 1. End-to-End Entity Resolution for Big Data: A Survey (2019) [[Paper](https://arxiv.org/pdf/1905.06397.pdf)]
@@ -15,7 +15,7 @@ __General Papers__
 6. The return of JedAI: End-to-End Entity Resolution for Structured and Semi-Structured Data (VLDB 2018) [[PDF](http://www.vldb.org/pvldb/vol11/p1950-papadakis.pdf), demo] 🌟
 7. CloudMatcher: A Hands-Off Cloud/Crowd Service for Entity Matching (VLDB 2018) [[PDF](http://www.vldb.org/pvldb/vol11/p2042-govind.pdf), demo]🌟
 8. Robust Entity Resolution using Random Graphs (SIGMOD 2018) [[PDF](https://dl.acm.org/citation.cfm?id=3183755)] 🌟
-9. Deep Learning for Entity Matching: A Design Space Exploration (SIGMOD 2018) [[PDF](http://pages.cs.wisc.edu/~anhai/papers1/deepmatcher-sigmod18.pdf)] 🌟
+9. Deep Learning for Entity Matching: A Design Space Exploration (SIGMOD 2018) [[PDF](http://pages.cs.wisc.edu/~anhai/papers1/deepmatcher-sigmod18.pdf)] [[Code and Data](https://github.com/anhaidgroup/deepmatcher)] 🌟
 10. Schema-Agnostic Progressive Entity Resolution (ICDE 2018) [[PDF](http://www.dit.unitn.it/~pavel/OM/articles/Simonini_icde18.pdf)] 🌟
 11. A Graph-Theoretic Fusion Framework for Unsupervised Entity Resolution (ICDE 2018) [[PDF](http://staff.ustc.edu.cn/~hexn/papers/icde18-entity-resolution.pdf)] 🌟
 12. Enabling Quality Control for Entity Resolution: A Human and Machine Cooperation Framework (ICDE 2018) [[PDF](https://arxiv.org/pdf/1710.00204.pdf)] 🌟
@@ -34,7 +34,7 @@ __General Papers__
 > *  Address two existing problems: over-complex graph encoder and inefficient negative sampling strategy
 25. Crowdsourced Collective Entity Resolution with Relational Match Propagation [[Video](https://www.google.com/url?q=https://drive.google.com/open?id%3D1hoQjzDt91Cliyfeds0znodJi9qut2T5T&sa=D&ust=1587488616438000&usg=AFQjCNGUwKR9_tol6E8T_Bqsom4L4cqd3g)][[Slides](https://www.google.com/url?q=https://drive.google.com/open?id%3D1OJdgNJHFq30LUyfcVI69Bea3wkpKnbcm&sa=D&ust=1587488616438000&usg=AFQjCNHjiZE4zZ71q08MuDrUAcoetNNN0g)][[Paper](https://conferences.computer.org/icde/2020/pdfs/ICDE2020-5acyuqhpJ6L9P042wmjY1p/290300a037/290300a037.pdf)] (ICDE 2020) 🌟
 26. Gradual Machine Learning for Entity Resolution (WWW 2019)
-27. 
+27. Deep Entity Matching with Pre-Trained Language Models [[Paper](https://vldb.org/pvldb/vol14/p50-li.pdf)] (VLDB 2021) 🌟
 28. Towards Interpretable and Learnable Risk Analysis for Entity Resolution [[Paper](https://doi.org/10.1145/3318464.3380572)] (SIGMOD 2020) 🌟
 29. Entity Matching in the Wild: a Consistent and Versatile Framework to Unify Data in Industrial Applications [[Paper](https://doi.org/10.1145/3318464.3386143)] (SIGMOD 2020, industry track) 🌟
 30. REA: Robust Cross-lingual Entity Alignment Between Knowledge Graphs (KDD 2020)
@@ -46,8 +46,17 @@ __General Papers__
 36. Knowledge Graph Alignment Network with Gated Multi-hop Neighborhood Aggregation (AAAI 2020) [[Paper](https://arxiv.org/pdf/1911.08936.pdf)]
 37. Collective Multi-type Entity Alignment Between Knowledge Graphs (WWW 2020)
 38. Multi-Context Attention for Entity Matching (WWW 2020, short paper)
-40. 
+40. End-to-end Task Based Parallelization for Entity Resolution on Dynamic Data  (ICDE 2021) 🌟
 41. Auto-EM: End-to-end Fuzzy Entity-Matching using Pre-trained Deep Models and Transfer Learning (WWW 2019)
+42. Cost–effective Variational Active Entity Resolution (ICDE 2021) 🌟
+43. Automating Entity Matching Model Development (ICDE 2021) 🌟
+44. Efficient and effective ER with progressive blocking [[Paper](https://link.springer.com/article/10.1007/s00778-021-00656-7)] (VLDBJ 2021) 🌟
+45. Online Topic-Aware Entity Resolution Over Incomplete Data Streams (SIGMOD 2021) 🌟
+46. Active Learning for Neural Entity Alignment (EMNLP 2021)
+> * Human in the loop to improve the quality of alignment seeds
+47. Ensemble Semi-supervised Entity Alignment via Cycle-teaching (AAAI 2022)
+48. Informed Multi-context Entity Alignment (WSDM 2022)
+49. Deep Indexed Active Learning for Matching Heterogeneous Entity Representations [[Paper](http://vldb.org/pvldb/vol15/p31-jain.pdf)] [[Code](https://github.com/ArjitJ/DIAL)]
 
 __Embedding Based Techniques__
 1. A Benchmarking Study of Embedding-based Entity Alignment for Knowledge Graphs (VLDB 2020) 🌟 [[Paper](http://www.vldb.org/pvldb/vol13/p2326-sun.pdf)] [[GitHub](https://github.com/nju-websoft/OpenEA)]
